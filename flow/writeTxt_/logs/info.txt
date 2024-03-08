@@ -1,3 +1,76 @@
 src_lang: mar_Deva tgt_lang: eng_Latn ai4bharat/indictrans2-indic-en-dist-200M
-77
-#docs: 77 #processed: 0
+80
+  exec_task: pdf_cid_info 
+  exec_task: pdf_cid_reader 
+  exec_task: word_recognizer 
+  exec_task: pdftable_finder 
+	==Total:0 Errors=0 
+  exec_task: line_finder 
+  exec_task: para_finder 
+  exec_task: extract_order_number 
+	extract_order_number:202403051225568724.pdf: >शासन निर्णय क्रमांक< >बीयुडी-२०२३/प्र.क्र.०४/कार्या-६<
+	elapsed_time:202403051225568724.pdf: 0.000093
+  exec_task: doc_translator_hf 
+    Paras: #51 Sentences: #26
+	[0]  #words: 46 #sentences: 11
+	After generate: 2 MB
+	[0]  #words: 263 #sentences: 50
+	After generate: 3 MB
+	[1]  #words: 173 #sentences: 16
+	After generate: 3 MB
+  exec_task: text_writer 
+  exec_task: pdf_cid_info 
+  exec_task: pdf_cid_reader 
+  exec_task: word_recognizer 
+  exec_task: pdftable_finder 
+	==Total:0 Errors=0 
+  exec_task: line_finder 
+  exec_task: para_finder 
+  exec_task: extract_order_number 
+	extract_order_number:202403071035296324.pdf: >शासन निर्णय क्रमांक< >एसटीसी २१२४/प्र.क्र.४२/का. १०<
+	elapsed_time:202403071035296324.pdf: 0.000081
+  exec_task: doc_translator_hf 
+    Paras: #41 Sentences: #0
+	[0]  #words: 265 #sentences: 49
+	After generate: 3 MB
+	[1]  #words: 70 #sentences: 6
+	After generate: 3 MB
+  exec_task: text_writer 
+  exec_task: pdf_cid_info 
+  exec_task: pdf_cid_reader 
+  exec_task: word_recognizer 
+  exec_task: pdftable_finder 
+	==Total:0 Errors=0 
+  exec_task: line_finder 
+  exec_task: para_finder 
+  exec_task: extract_order_number 
+	extract_order_number:202403071738354424.pdf: >शासन निर्णय क्रमांक< >१५२२/प्र.क्र.१२ (भाग-१)/का.१२<
+	elapsed_time:202403071738354424.pdf: 0.000098
+  exec_task: doc_translator_hf 
+    Paras: #343 Sentences: #0
+	[0]  #words: 257 #sentences: 90
+	After generate: 3 MB
+	[1]  #words: 259 #sentences: 48
+	After generate: 3 MB
+	[2]  #words: 257 #sentences: 38
+	After generate: 3 MB
+	[3]  #words: 259 #sentences: 30
+	After generate: 3 MB
+	[4]  #words: 266 #sentences: 27
+	After generate: 3 MB
+	[5]  #words: 267 #sentences: 27
+	After generate: 3 MB
+	[6]  #words: 263 #sentences: 25
+	After generate: 3 MB
+	[7]  #words: 261 #sentences: 24
+	After generate: 3 MB
+	[8]  #words: 259 #sentences: 24
+	After generate: 3 MB
+	[9]  #words: 264 #sentences: 24
+	After generate: 3 MB
+	[10]  #words: 262 #sentences: 24
+	After generate: 3 MB
+	[11]  #words: 183 #sentences: 15
+	After generate: 3 MB
+  exec_task: text_writer 
+#docs: 80 #processed: 3
