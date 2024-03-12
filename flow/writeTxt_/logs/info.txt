@@ -1,3 +1,22 @@
 src_lang: mar_Deva tgt_lang: eng_Latn ai4bharat/indictrans2-indic-en-dist-200M
-80
-#docs: 80 #processed: 0
+81
+  exec_task: pdf_cid_info 
+  exec_task: pdf_cid_reader 
+  exec_task: word_recognizer 
+  exec_task: pdftable_finder 
+	==Total:1 Errors=1 TableEmptyBodyCellError=1
+  exec_task: line_finder 
+  exec_task: para_finder 
+  exec_task: extract_order_number 
+	extract_order_number:202403121207365224.pdf: >शासन निर्णय क्रमांक< >अस्थाप-२०२४/प्र.क्र.२०/का-७<
+	elapsed_time:202403121207365224.pdf: 0.000078
+  exec_task: doc_translator_hf 
+    Paras: #51 Sentences: #80
+	[0]  #words: 200 #sentences: 40
+	After generate: 5 MB
+	[0]  #words: 265 #sentences: 52
+	After generate: 5 MB
+	[1]  #words: 146 #sentences: 13
+	After generate: 5 MB
+  exec_task: text_writer 
+#docs: 81 #processed: 1
