@@ -1,12 +1,76 @@
 src_lang: mar_Deva tgt_lang: eng_Latn ai4bharat/indictrans2-indic-en-dist-200M
-91
+92
   exec_task: pdf_cid_info 
   exec_task: pdf_cid_reader 
-**** PIPEERROR IN 202403151125582724.pdf --> int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+  exec_task: word_recognizer 
+  exec_task: pdftable_finder 
+	==Total:13 Errors=13 TableEmptyBodyCellError=13
+  exec_task: line_finder 
+  exec_task: para_finder 
+  exec_task: extract_order_number 
+	extract_order_number:202403051225363024.pdf: >शासन निर्णय क्रमांक< >बीयुडी-२०२३/प्र.क्र.०२/कार्यासन.६<
+	elapsed_time:202403051225363024.pdf: 0.000093
+  exec_task: doc_translator_hf 
+    Paras: #37 Sentences: #0
+	[0]  #words: 268 #sentences: 55
+	After generate: 3 MB
+	[1]  #words: 68 #sentences: 6
+	After generate: 3 MB
+  exec_task: text_writer 
   exec_task: pdf_cid_info 
   exec_task: pdf_cid_reader 
-**** PIPEERROR IN 202403151129482824.pdf --> int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+  exec_task: word_recognizer 
+  exec_task: pdftable_finder 
+	==Total:0 Errors=0 
+  exec_task: line_finder 
+  exec_task: para_finder 
+  exec_task: extract_order_number 
+	extract_order_number:202403151125582724.pdf: >शासन निर्णय क्रमांक< >आविवि-२०२३/प्र.क्र. १४४/का. १९<
+	elapsed_time:202403151125582724.pdf: 0.000087
+  exec_task: doc_translator_hf 
+    Paras: #62 Sentences: #0
+	[0]  #words: 265 #sentences: 55
+	After generate: 11 MB
+	[1]  #words: 253 #sentences: 23
+	After generate: 11 MB
+  exec_task: text_writer 
   exec_task: pdf_cid_info 
   exec_task: pdf_cid_reader 
-**** PIPEERROR IN 202403152112051624.pdf --> int() argument must be a string, a bytes-like object or a number, not 'NoneType'
-#docs: 91 #processed: 3
+  exec_task: word_recognizer 
+  exec_task: pdftable_finder 
+	==Total:0 Errors=0 
+  exec_task: line_finder 
+  exec_task: para_finder 
+  exec_task: extract_order_number 
+	extract_order_number:202403151129482824.pdf: >शासन निर्णय क्रमांक< >आविवि-२०२३/प्र.क्र. ४१/का. १९<
+	elapsed_time:202403151129482824.pdf: 0.000088
+  exec_task: doc_translator_hf 
+    Paras: #48 Sentences: #0
+	[0]  #words: 260 #sentences: 43
+	After generate: 11 MB
+	[1]  #words: 168 #sentences: 14
+	After generate: 11 MB
+  exec_task: text_writer 
+  exec_task: pdf_cid_info 
+  exec_task: pdf_cid_reader 
+	202403152112051624.pdf missing_cmaps: sakalmarathinormal
+  exec_task: word_recognizer 
+	Tesseract on page: 0
+	Tesseract on page: 1
+  exec_task: pdftable_finder 
+	==Total:1 Errors=1 TableEmptyBodyCellError=1
+  exec_task: line_finder 
+  exec_task: para_finder 
+  exec_task: extract_order_number 
+	extract_order_number:202403152112051624.pdf: >शासन निर्णय क्रमांक< >आविवि-०१२४/प्र.क्र.११/का-८<
+	elapsed_time:202403152112051624.pdf: 0.000109
+  exec_task: doc_translator_hf 
+    Paras: #32 Sentences: #8
+	[0]  #words: 27 #sentences: 7
+	After generate: 11 MB
+	[0]  #words: 264 #sentences: 41
+	After generate: 11 MB
+	[1]  #words: 95 #sentences: 5
+	After generate: 11 MB
+  exec_task: text_writer 
+#docs: 92 #processed: 4
