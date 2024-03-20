@@ -1,3 +1,45 @@
 src_lang: mar_Deva tgt_lang: eng_Latn ai4bharat/indictrans2-indic-en-dist-200M
-92
-#docs: 92 #processed: 0
+94
+  exec_task: pdf_cid_info 
+  exec_task: pdf_cid_reader 
+	202403142159477524.pdf missing_cmaps: arialitalic
+  exec_task: word_recognizer 
+	Replaced 0:69 >No.:MTD-(arialitalic-cid:22)(arialitalic-cid:23)(arialitalic-cid:19)(arialitalic-cid:21)(arialitalic-cid:20)(arialitalic-cid:18)(arialitalic-cid:23)(arialitalic-cid:25)(arialitalic-cid:18)(arialitalic-cid:21)(arialitalic-cid:19)(arialitalic-cid:21)(arialitalic-cid:23)(arialitalic-cid:16)DESK<  >No. :MTD-34021/46/2024-DESK<
+	Replaced 0:70 >(arialitalic-cid:20)(arialitalic-cid:22)A-<  >13A-<
+  exec_task: pdftable_finder 
+	==Total:0 Errors=0 
+  exec_task: line_finder 
+  exec_task: para_finder 
+  exec_task: extract_order_number 
+	extract_order_number:202403142159477524.pdf: >शासन निर्णय क्रमांक< >बीयुडी-२०२३/प्र.क्र.०२/कार्यासन.६<
+	elapsed_time:202403142159477524.pdf: 0.000103
+  exec_task: doc_translator_hf 
+    Paras: #48 Sentences: #17
+	[0]  #words: 41 #sentences: 9
+	After generate: 2 MB
+	[0]  #words: 261 #sentences: 53
+	After generate: 3 MB
+	[1]  #words: 161 #sentences: 15
+	After generate: 3 MB
+  exec_task: text_writer 
+  exec_task: pdf_cid_info 
+  exec_task: pdf_cid_reader 
+	202403142159525624.pdf missing_cmaps: arialitalic
+  exec_task: word_recognizer 
+  exec_task: pdftable_finder 
+	==Total:0 Errors=0 
+  exec_task: line_finder 
+  exec_task: para_finder 
+  exec_task: extract_order_number 
+	extract_order_number:202403142159525624.pdf: >शासन निर्णय क्रमांक< >बीयुडी-२०२३/प्र.क्र.०२/कार्यासन.६<
+	elapsed_time:202403142159525624.pdf: 0.000097
+  exec_task: doc_translator_hf 
+    Paras: #37 Sentences: #21
+	[0]  #words: 44 #sentences: 12
+	After generate: 3 MB
+	[0]  #words: 259 #sentences: 43
+	After generate: 3 MB
+	[1]  #words: 22 #sentences: 2
+	After generate: 3 MB
+  exec_task: text_writer 
+#docs: 94 #processed: 2
